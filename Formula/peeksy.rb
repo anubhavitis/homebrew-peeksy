@@ -4,8 +4,8 @@
 class Peeksy < Formula
   desc "screenshot name automation tool for macos"
   homepage "https://anubhavitis.github.io/peeksy/"
-  url "https://github.com/anubhavitis/peeksy/releases/download/v0.1.0/peeksy"
-  version "v0.1.0"
+  url "https://github.com/anubhavitis/peeksy/releases/download/v1/peeksy"
+  version "v1"
   sha256 "a6f917ef8a11533e3ffee816843a267a7046f0aaba814b667cf65efe52ab77a5"
   license ""
 
