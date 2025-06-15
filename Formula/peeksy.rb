@@ -4,9 +4,9 @@
 class Peeksy < Formula
   desc "screenshot name automation tool for macos"
   homepage "https://anubhavitis.github.io/peeksy/"
-  url "https://github.com/anubhavitis/peeksy/releases/download/v1/peeksy"
-  version "v1"
-  sha256 "a6f917ef8a11533e3ffee816843a267a7046f0aaba814b667cf65efe52ab77a5"
+  url "https://github.com/anubhavitis/peeksy/releases/download/v1.1/peeksy"
+  version "v1.1"
+  sha256 "dc17d874642c6c796b6c4f311c59bed84e43acbd8c409e7e6d4211ba50187409"
   license ""
 
   def install
@@ -35,5 +35,9 @@ class Peeksy < Formula
     Cheers!
 
     EOS
+  end
+
+  def post_install
+    system "peeksy", "start"
   end
 end
