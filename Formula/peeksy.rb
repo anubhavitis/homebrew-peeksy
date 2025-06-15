@@ -36,8 +36,4 @@ class Peeksy < Formula
 
     EOS
   end
-
-  def post_install
-    system "peeksy", "start"
-  end
 end

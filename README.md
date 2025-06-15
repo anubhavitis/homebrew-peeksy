@@ -1,6 +1,6 @@
-# Peeksy
+<img src="assets/OP 1.svg" width="150" height="150" alt="Peeksy Logo" />
 
-Earlier called as Screenshot-Auto
+# Peeksy
 
 A Rust-based tool that automatically renames screenshots and images using OpenAI's GPT-4 Vision API. The tool analyzes image content and generates descriptive, meaningful filenames following a consistent naming convention.
 
@@ -26,7 +26,10 @@ Note: Peeksy will prompt you to enter OpenApi key them during first run. The val
 
 ```
 brew tap anubhavitis/peeksy
+
 brew install peeksy
+
+peeksy start
 ```
 
 ## How to Use
